@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Cues and Kitchen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">
+            <img src="logo.jpg" alt="Cues and Kitchen Logo" class="logo">
+        </a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="games.html">Cues & Play</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+        <div class="contact-container">
+            <h1 class="contact-title">CONTACT US</h1>
+            <div class="contact-box">
+                <!-- Left: Contact Details -->
+            <div class="contact-details">
+                <h2>Keep Close</h2>
+                <p>Feel free to reach out for inquiries, reservations, or feedback. We’d love to hear from you.</p>
+                <p><i class="fas fa-map-marker-alt"></i> 382, Nirman Nagar - AB, Janpath, Shyam Nagar, Jaipur</p>
+                <p><i class="fas fa-phone"></i> 8003582218, 7976571118</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:cues2024kitchen@gmail.com">cues2024kitchen@gmail.com</a></p>
+                <p><i class="fas fa-clock"></i> Open: 10 AM - 10 PM (Everyday)</p>
+                <p><i class="fas fa-map"></i> <a href="https://maps.app.goo.gl/EhMH3YC9ZYGebanJ7?g_st=com.google.maps.preview.copy" target="_blank">View on Google Maps</a></p>
+
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/cuesandkitchen" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+            
+                
+                
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    document.querySelector('form').addEventListener('submit', function (e) {
+        let name = document.querySelector('input[type="text"]').value;
+        let email = document.querySelector('input[type="email"]').value;
+        let subject = document.querySelector('input[type="text"]').value;
+        let message = document.querySelector('textarea').value;
+
+        if (!name || !email || !subject || !message) {
+            alert('Please fill out all fields.');
+            e.preventDefault();
+        }
+    });
+</script>
+</html>

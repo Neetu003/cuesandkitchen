@@ -1,0 +1,767 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #fdf6ec;
+    color: #4a2c2a;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    ont-family: 'Playfair Display', serif;
+    font-size: 3em;
+    margin-top: 20px;
+    color: #6f4e37;
+}
+
+p {
+    font-size: 1.2em;
+}
+nav {
+    background-color: #4a2c2a;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f8c291;
+}
+.menu {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff8f1; /* Light background */
+}
+
+.menu h1 {
+    font-size: 2.5em;
+    color: #3e2723; /* Dark brown */
+    margin-bottom: 20px;
+}
+
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.item h2 {
+    color: #5d4037; /* Coffee brown */
+}
+
+.price {
+    font-weight: bold;
+    color: #d32f2f; /* Red price */
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Contact Section */
+.contact-container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-details, .contact-form {
+    flex: 1;
+    margin: 10px;
+}
+
+.contact-details h2,
+.contact-form h2 {
+    color: #333;
+}
+
+.contact-details p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #218838;
+}
+
+/* Social Media Icons */
+.social-icons a {
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+.logo {
+    height: 60px; /* Adjust the size */
+    width: auto;
+    display: block;
+    margin-right: 20px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-logo {
+    height: 50px; /* Adjust size as needed */
+    display: block;
+    margin: 0 auto;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust spacing */
+}
+
+.image-container img {
+    width: 70%; /* Resize the image */
+    height: auto;
+    border-radius: 10px; /* Optional rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+}
+/* Fix White Background */
+body {
+    background: #000; /* Full black background */
+    color: #e0a96d; /* Ensures all text is readable */
+}
+
+/* Fix Phone Number Color */
+.contact-details p {
+    color: #e0a96d; /* Gold */
+    font-size: 1rem;
+}
+
+/* Fix Contact Us Button */
+.contact-btn {
+    background: #e0a96d;
+    color: #111;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.contact-btn:hover {
+    background: #c88d4b; /* Slightly darker gold */
+}
+/* Darken Form Background */
+.contact-section {
+    background: #222; /* Dark grey for a seamless blend */
+    color: #e0a96d;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+/* Fix Email Color */
+.contact-details a {
+    color: #e0a96d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+/* Update Contact Us Button */
+.contact-btn {
+    background: #e0a96d;
+    color: #111;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.contact-btn:hover {
+    background: #c88d4b; /* Slightly darker gold */
+}
+
+/* Improve Reservation Button */
+.reserve-btn {
+    background: #e0a96d;
+    color: #111;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.reserve-btn:hover {
+    background: #c88d4b;
+}
+.contact-title {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    background: linear-gradient(to right, #D4A373, #8B5E3C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-title:hover {
+    transform: scale(1.1);
+}
+/* Apply background image */
+body {
+    background: url('bg.jpg') no-repeat center top fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contact box styling */
+.contact-container {
+    position: absolute;
+    top: 5%; /* Move contact box to the upper part */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li .active {
+    color: orange;
+}
+
+/* Contact Section */
+.contact-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact-title {
+    font-size: 32px;
+    color: #fff;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.contact-container {
+    max-width: 900px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Contact Box */
+.contact-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-side, .right-side {
+    width: 48%;
+}
+
+/* Left Side */
+.left-side h2 {
+    color: #333;
+}
+
+.left-side p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.left-side a {
+    color: #d37f24;
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+/* Right Side */
+.right-side h2 {
+    color: #333;
+}
+
+.right-side p {
+    font-size: 14px;
+    color: #666;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 80px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    background: green;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+nav {
+    position: relative;
+    z-index: 1000;
+}
+.contact-section {
+    margin-top: 100px; /* Adjust this value as needed */
+}
+.contact-container {
+    margin-top: 100px; /* Adjust this value as needed */
+}
+/* Apply background image to menu items section */
+.menu-items {
+    background: url('./bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 50px 0; /* Adjust spacing */
+    width: 100%;
+}
+
+/* Keep item boxes with white background */
+.item {    
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+.contact-btn:hover {
+    background-color: #ff6347; /* Change to your preferred color */
+    transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ff6347; /* Change to your preferred color */
+    transition: color 0.3s ease;
+}
+@media (max-width: 768px) {
+    .contact-box {
+        flex-direction: column;
+    }
+    .left-side, .right-side {
+        width: 100%;
+    }
+    .menu-items {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.social-icons a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+.social-icons a:hover {
+    color: #007bff;
+}
+.btn-primary {
+    background: #e0a96d;
+    color: #111;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+.btn-primary:hover {
+    background: #c88d4b;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+body {
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #f8f9fa; /* Fallback color */
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #999;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #e0a96d;
+    outline: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f1ea;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5d4037;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #5e2717;
+}
+
+/* Game Pricing */
+.pricing {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.price-box {
+    background: #5e2717;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Game List */
+.game-tables {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.table-container {
+    background: #5e2717;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #5e2717;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #d7ccc8;
+}
+
+/* Game Gallery */
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.game-card {
+    background: #5e2717;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+header {
+    background: none;  /* Remove brown background */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 2rem;
+    color: white; /* Adjust text color for visibility */
+}
+
+header h1 {
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+.cues-play-page {
+    background-image: url('bg1.jpg'); /* Make sure bg1.jpg is in the correct directory */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.private-area {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #5e2717;
+    color: white;
+    border-radius: 12px;
+    max-width: 800px;
+}
+
+.private-area h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.private-area p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.meeting-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+/* Main Heading */
+h1 {
+    text-align: center;
+    color: #5e2717;
+}
+
+/* Subheadings and other headings */
+h2, h3 {
+    text-align: center;
+    color: #d2b0a3; /* Lighter color for subheadings */
+}
+
+/* Specific headings for better control */
+.pricing h2, .game-tables h2, .game-card h2, .private-area h2 {
+    color: #d7ccc8; /* Change this to any color you prefer */
+}
+
+header h1 {
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+/* Subheadings (like Game Pricing and Game List) */
+h2, h3 {
+    text-align: center;
+    color: #5e2717; /* Softer color for subheadings */
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Pricing Box Heading (e.g., Pool Table, Foosball, PlayStation) */
+.price-box h3, .table-container h3, .game-card h3 {
+    color: #d3aaaa; /* Bright and eye-catching text */
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+/* Pricing Box Content (e.g., 8-Ball: ₹120/hr) */
+.price-box p, .table-container p, .game-card p {
+    color: #e0e0e0; /* Slightly lighter than the heading */
+    font-size: 18px;
+    margin: 5px 0;
+}
+nav {
+    background-image: url('header.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+nav a img.logo {
+    height: 80px; /* Adjust the size as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+
+
+
+
